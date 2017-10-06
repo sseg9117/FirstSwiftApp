@@ -22,13 +22,12 @@ class ViewController: UIViewController
     {
         if (firstButton.backgroundColor == .green)
         {
-            firstButton.backgroundColor = .white
+            firstButton.backgroundColor = .yellow
         }
         else
         {
-            firstButton.backgroundColor = .orange
+            firstButton.backgroundColor = .green
         }
-        firstButton.backgroundColor = .magenta
     }
     override func didReceiveMemoryWarning()
     {
