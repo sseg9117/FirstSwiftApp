@@ -25,11 +25,17 @@
                                 <rect key="frame" x="100" y="273" width="174" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="pretty button"/>
+                                <connections>
+                                    <action selector="firstMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jyf-gL-bUc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="firstButton" destination="yuc-Zq-Xmp" id="nn3-0J-FTF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
